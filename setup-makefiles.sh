@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=flashlmdd
+DEVICE=betalm
 VENDOR=lge
 
 INITIAL_COPYRIGHT_YEAR=2020

@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/lineage_flashlmdd.mk
+    $(LOCAL_DIR)/lineage_betalm.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_flashlmdd-userdebug \
-    lineage_flashlmdd-eng
+    lineage_betalm-userdebug \
+    lineage_betalm-eng

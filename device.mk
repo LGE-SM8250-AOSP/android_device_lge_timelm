@@ -17,16 +17,16 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/lge/flashlmdd/flashlmdd-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/betalm/betalm-vendor.mk)
 
-DEVICE_PATH := device/lge/flashlmdd
+DEVICE_PATH := device/lge/betalm
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Init
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/rootdir/etc/fstab.flashlmdd:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.flashlmdd
+    $(DEVICE_PATH)/rootdir/etc/fstab.betalm:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.betalm
 
 $(foreach f,$(wildcard $(DEVICE_PATH)/rootdir/etc/init/hw/*.rc),\
         $(eval PRODUCT_COPY_FILES += $(f):$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/$(notdir $f)))
