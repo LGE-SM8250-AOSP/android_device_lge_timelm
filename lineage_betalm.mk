@@ -32,8 +32,8 @@ PRODUCT_NAME := lineage_betalm
 PRODUCT_DEVICE := betalm
 PRODUCT_BRAND := lge
 PRODUCT_MANUFACTURER := LGE
-PRODUCT_RELEASE_NAME := V50 ThinQ
-PRODUCT_MODEL := LM-V500
+PRODUCT_RELEASE_NAME := G8s ThinQ
+PRODUCT_MODEL := LM-G810EM
 
 PRODUCT_GMS_CLIENTID_BASE := android-lge
 
@@ -42,7 +42,7 @@ TARGET_VENDOR_DEVICE_NAME := betalm
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="betalm_lao_com" \
-    PRIVATE_BUILD_DESC="betalm_lao_com-user 10 QKQ1.191021.002 202480518b6a5 release-keys"
+    PRIVATE_BUILD_DESC="betalm_lao_com-user 10 QKQ1.200614.002 203091553038e release-keys"
 
-BUILD_FINGERPRINT := "lge/betalm_lao_com/betalm:10/QKQ1.191021.002/202480518b6a5:user/release-keys"
+BUILD_FINGERPRINT := "lge/betalm/betalm:10/QKQ1.200614.002/203091553038e:user/release-keys"
 
