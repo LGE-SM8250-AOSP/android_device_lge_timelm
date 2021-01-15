@@ -15,20 +15,5 @@ import /vendor/etc/init/hw/init.lge.audio.rc
 # import chipset common rc file
 import /vendor/etc/init/hw/init.msmnile.rc
 
-# import $(TARGET_PRODUCT) vendor rc file
-import /vendor/etc/init/hw/init.${ro.hardware}_vendor.rc
-
-# Begin Immersion Changes
-service immvibed /vendor/bin/immvibed -p 99 -u 1000
-    class late_start
-    user root
-    group root
-    ioprio rt 4
-
 on post-fs
-# Support tuxera exfat filesystem
-    insmod /vendor/lib/modules/texfat.ko
     mkdir /mnt/vendor/persist-lg/tof 0776 system camera
-
-on early-fs
-    ffu_update
