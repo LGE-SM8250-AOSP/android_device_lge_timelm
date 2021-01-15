@@ -16,8 +16,8 @@
 
 DEVICE_PATH := device/lge/betalm
 
-# inherit from common v50
--include device/lge/flash-common/BoardConfigCommon.mk
+# inherit from common beta-common
+-include device/lge/beta-common/BoardConfigCommon.mk
 
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.hardware=betalm
