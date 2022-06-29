@@ -71,7 +71,7 @@ function blob_fixup() {
 }
 
 if [ -z "$SRC" ]; then
-    SRC=adb
+    SRC=/home/j0sh1x/stock/extracteddz/m
 fi
 
 # Initialize the helper
