@@ -17,17 +17,17 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/lge/betalm/betalm-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/timelm/timelm-vendor.mk)
 
 #$(call inherit-product-if-exists, vendor/gapps/common/common-vendor.mk)
 
-DEVICE_PATH := device/lge/betalm
+DEVICE_PATH := device/lge/timelm
 
-DEVICE_NAME := betalm
+DEVICE_NAME := timelm
 
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # common flash
-$(call inherit-product, device/lge/beta-common/beta.mk)
+$(call inherit-product, device/lge/time-common/time.mk)

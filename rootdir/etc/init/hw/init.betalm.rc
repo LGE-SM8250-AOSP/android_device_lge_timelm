@@ -13,7 +13,7 @@ import /vendor/etc/init/hw/init.lge.display.rc
 import /vendor/etc/init/hw/init.lge.audio.rc
 
 # import chipset common rc file
-import /vendor/etc/init/hw/init.msmnile.rc
+import /vendor/etc/init/hw/init.kona.rc
 
 on post-fs
     mkdir /mnt/vendor/persist-lg/tof 0776 system camera

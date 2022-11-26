@@ -14,20 +14,20 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/lge/betalm
+DEVICE_PATH := device/lge/timelm
 
-# inherit from common beta-common
--include device/lge/beta-common/BoardConfigCommon.mk
+# inherit from common time-common
+-include device/lge/time-common/BoardConfigCommon.mk
 
 # Kernel
-BOARD_KERNEL_CMDLINE += androidboot.hardware=betalm
+BOARD_KERNEL_CMDLINE += androidboot.hardware=timelm
 
 # Recovery
 TARGET_RECOVERY_WIPE := $(DEVICE_PATH)/recovery/recovery.wipe
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.betalm
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.timelm
 
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2020-09-01
 
 # inherit from the proprietary version
--include vendor/lge/betalm/BoardConfigVendor.mk
+-include vendor/lge/timelm/BoardConfigVendor.mk

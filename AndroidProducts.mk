@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/arrow_betalm.mk
+    $(LOCAL_DIR)/lineage_timelm.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_betalm-userdebug \
-    arrow_betalm-eng
+    lineage_timelm-userdebug \
+    lineage_timelm-eng

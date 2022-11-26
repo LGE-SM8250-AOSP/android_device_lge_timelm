@@ -5,7 +5,7 @@
 #<src>                                                               <mnt_point>            <type>   <mnt_flags and options>                                                 <fs_mgr_flags>
 /dev/block/bootdevice/by-name/system                                 /                       ext4    ro,barrier=1,noatime                                                    wait,slotselect,avb
 /dev/block/bootdevice/by-name/metadata                               /metadata               ext4    noatime,nosuid,nodev,discard                                            wait,formattable
-# product partition is early mounted and you can find out on sm8150.dtsi
+# product partition is early mounted and you can find out on sm8250.dtsi
 # /dev/block/bootdevice/by-name/product                                /product                ext4    ro,nodev,barrier=1,errors=continue                                    wait,slotselect
 /dev/block/bootdevice/by-name/userdata                               /data                   ext4    nosuid,nodev,barrier=1,noatime,noauto_da_alloc,errors=continue          wait,check,fileencryption=ice,keydirectory=/metadata/vold/metadata_encryption,formattable,quota,reservedsize=128M
 /devices/platform/soc/8804000.sdhci/mmc_host*                        auto                    auto    nosuid,nodev                                                            wait,voldmanaged=external_SD:auto,encryptable=footer

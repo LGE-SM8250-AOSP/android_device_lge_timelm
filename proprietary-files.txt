@@ -1,7 +1,7 @@
 # All unpinned blobs below are extracted from LM-V500EM 30a
 
 # Camera
-vendor/lib/hw/camera.msmnile.so
+vendor/lib/hw/camera.kona.so
 vendor/lib/hw/com.qti.chi.override.so
 vendor/lib/libAutoContrast.so
 vendor/lib/libCmcPdaf.so
@@ -54,7 +54,7 @@ vendor/lib/libFNCVFD.so
 vendor/lib64/libFNCVFD.so
 vendor/lib/libFN3DPortrait.so
 vendor/lib64/libFN3DPortrait.so
-vendor/lib64/hw/camera.msmnile.so
+vendor/lib64/hw/camera.kona.so
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/libAutoContrast.so
 vendor/lib64/libCmcPdaf.so
