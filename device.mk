@@ -29,5 +29,5 @@ DEVICE_NAME := timelm
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
-# common flash
+# common time
 $(call inherit-product, device/lge/time-common/time.mk)
