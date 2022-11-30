@@ -48,4 +48,4 @@ on post-fs-data
     mkdir /data/vendor/nfc 0770 nfc nfc
 
 on early-fs
-    ffu_update
+    
