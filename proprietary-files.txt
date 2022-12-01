@@ -55,6 +55,23 @@ vendor/lib64/liblghdri.so
 vendor/lib64/libmorpho_image_stab31.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libsnsapi.so
+vendor/lib64/libcamximageformatutils.so
+vendor/lib/libcamximageformatutils.so
+vendor/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
+vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
+vendor/lib64/libofflinelog.so
+vendor/lib/libofflinelog.so
+vendor/lib/libspectre.so
+vendor/lib64/libspectre.so
+vendor/lib/libcamxfacialfeatures.so
+vendor/lib64/libcamxfacialfeatures.so
+vendor/lib/libcamxncs.so
+vendor/lib64/libcamxncs.so
+vendor/lib/libcamxfdalgo.so
+vendor/lib64/libcamxfdalgo.so
+vendor/lib/libcvp2.so
+vendor/lib64/libcvp2.so
+
 
 # Camera - Automatic white balancing and exposure
 
@@ -256,6 +273,10 @@ vendor/lib/camera/liblg_awb_param_s5kgw1n_video7.so
 vendor/lib/camera/liblg_awb_param_s5kgw1n_video8.so
 vendor/lib/camera/liblg_awb_param_s5kgw1n_video9.so
 vendor/lib/camera/sensors.hal.flicker.so
+vendor/lib/libfilm_emulation_hal.so
+vendor/lib/libarcsoft_beauty_picselfie.so
+vendor/lib64/libarcsoft_beauty_picselfie.so
+vendor/lib64/libfilm_emulation_hal.so
 
 vendor/lib64/camera/com.qti.eeprom.irs2381c_polar.so
 vendor/lib64/camera/com.qti.eeprom.s5k3j1_fm24c32d.so
@@ -424,6 +445,15 @@ vendor/lib64/camera/liblg_awb_param_s5kgw1n_video7.so
 vendor/lib64/camera/liblg_awb_param_s5kgw1n_video8.so
 vendor/lib64/camera/liblg_awb_param_s5kgw1n_video9.so
 vendor/lib64/camera/sensors.hal.flicker.so
+vendor/lib64/libdepthmapdecoder.arcsoft.so
+vendor/lib/HDR10plus.so
+vendor/lib64/HDR10plus.so
+vendor/lib/libarcsoft_picselfie_algorithm.so
+vendor/lib64/libarcsoft_picselfie_algorithm.so
+vendor/lib/libsynx.so
+vendor/lib64/libsynx.so
+vendor/lib64/libchilog.so
+vendor/lib/libchilog.so
 
 
 
